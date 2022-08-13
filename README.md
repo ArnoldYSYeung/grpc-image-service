@@ -26,7 +26,7 @@ If there are changes made to the `./proto/image.proto` or changes to the service
 Note that our code places the server at an unsecure local port. This is for the convenience of deploying and testing the server locally. I highly recommend changing to a secure port (using `server.add_secure_port`) with credentials when deploying this externally.
 
 ## Instructions
-To start the server, navigate to source directory using `cd ./grpc-image-service-prompt/src` and run the server using `python3 server.py`.
+To start the server, navigate to source directory using `cd ./grpc-image-service/src` and run the server using `python3 server.py`.
 
 To run the client, in a separate terminal navigate to the source directory (see above) and run `client.py`.  Note that the client has several command line arguments that you may use. If a required command line argument is not entered, a prompt for its value would appear.
 
